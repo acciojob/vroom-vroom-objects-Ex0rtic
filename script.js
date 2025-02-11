@@ -16,6 +16,7 @@ Car.prototype.getMakeModel = () =>{
 SportsCar.prototype.getTopSpeed =()=>{
 	return this.topSpeed;
 }
+SportsCar.prototype=Object.create(Car.prototype);
 // Do not change the code below
 window.Car = Car;
 window.SportsCar = SportsCar;
